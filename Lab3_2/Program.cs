@@ -19,8 +19,10 @@
 
     public static void Main() // Основная функция.
     {
-        Lab2 lab2 = new Lab2(); 
+        Lab2 lab2 = new Lab2();
+        Console.WriteLine("Перевод градусов в радианы: ");
         Console.WriteLine(Math.Round(Math.PI / 180 * lab2.gra, lab2.okr)); //Перевод градусов в радианы.
+        Console.WriteLine("Перевод радианы в градусы: ");
         Console.WriteLine(Math.Round(180 / Math.PI * lab2.rad, lab2.okr)); //Перевод радианы в градусы.
     }
 }
