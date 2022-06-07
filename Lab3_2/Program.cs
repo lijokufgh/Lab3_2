@@ -4,7 +4,7 @@
     {
         public double gra; // Градусы.
         public double rad; // Радианы.
-        public int okr; // округление до кокого числа.
+        public int okr; // округление до какого числа.
 
         public Lab2() // Заполняем переменные. Выводиться при создании объекта.
         {
@@ -12,7 +12,7 @@
             gra = double.Parse(Console.ReadLine());
             Console.WriteLine("Введите радианы: ");
             rad = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите до скольки знаков округлять: ");
+            Console.WriteLine("Введите до скольких знаков округлять: ");
             okr = int.Parse(Console.ReadLine());
         }
     }
